@@ -1,0 +1,31 @@
+# Environments
+venv/
+env/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# IDE
+.vscode/
+.idea/
+
+# Backend Data / Databases
+backend/study_assistant.db
+backend/faiss_index/
+backend/last_llm_response.json
+backend/restart_log.txt
+backend/restart_log2.txt
+backend/restart_log3.txt
+backend/traceback.txt
+backend/*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
